@@ -31,7 +31,7 @@ blenderplayer
 
 ### Principe de mes scripts
 
-Sur le Cube au centre de la scène, il y a quelques briques qui excécute:
+Sur le Cube au centre de la scène, il y a quelques briques qui excécutent:
 
 * labomedia_once.py une seule fois. Ce script appelle once.py qui initie toutes les objets python et leurs attributs, et toutes les  variables
 * labomedia_always.py ensuite à chaque frame. Ce script appelle always.py en tant que module(il n'est donc compiler qu'une seule fois). Ce script va tout faire, il n'y aura pas d'autres briques logiques.
